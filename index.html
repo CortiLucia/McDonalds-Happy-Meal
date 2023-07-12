@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mc Times</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="icon" href="imgs/mcdonalds.png" type="image/png" />
+  <script src="https://kit.fontawesome.com/98194b4800.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <ul>
+      <li><a href="proximamente.html">Historia</a></li>
+      <li><a href="proximamente.html">Personajes</a></li>
+      <li><a href="proximamente.html">Colecciones mas caras</a></li>
+      <li><a href="proximamente.html">Menú Happy Meal</a></li>
+    </ul>
+  </header>
+  <main>
+    <div class="titulo">
+      <img src="imgs/mcdonalds.png" alt="" />
+      <h1>cDonald's Happy Meal Toys</h1>
+    </div>
+    <section>
+      <div class="inicio">
+        <div class="texto">
+          <p>
+            Si eres un apasionado de los juguetes y de McDonald's, has llegado
+            al lugar indicado. Aquí encontrarás todo lo relacionado con los
+            fascinantes y divertidos juguetes que han sido parte de la
+            historia de la famosa cadena de comida rápida.
+          </p>
+          <p>
+            Desde su primera incursión en el mundo de los juguetes en la
+            década de 1970, McDonald's ha cautivado a niños y adultos con sus
+            increíbles y variadas colecciones. Ya sea que estés buscando los
+            clásicos juguetes Happy Meal de tu infancia o los últimos
+            lanzamientos.
+          </p>
+          <p>
+            Nuestra página está diseñada para ser tu guía definitiva en el
+            mundo del coleccionismo de juguetes de McDonald's. Te
+            proporcionaremos detalles sobre la fecha de lanzamiento,
+            personajes destacados y curiosidades relacionadas con cada
+            juguete.
+          </p>
+          <p>
+            Explora nuestra página y sumérgete en el fascinante universo de
+            los juguetes de McDonald's. ¡La diversión está garantizada!
+          </p>
+        </div>
+        <img src="imgs/mcdonalds_cajitafeliz.jpg" />
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Colecciones a lo largo del tiempo</h2>
+      <div class="colecciones">
+        <button class="boton" type="button" onclick="location.href= 'proximamente.html' ">
+          '80
+        </button>
+        <button class="boton" type="button" onclick="location.href= 'proximamente.html' ">
+          '90
+        </button>
+        <button class="boton" type="button" onclick="location.href= 'proximamente.html' ">
+          '00
+        </button>
+        <button class="boton" type="button" onclick="location.href= 'colecciones2010.html' ">
+          '10
+        </button>
+        <button class="boton" type="button" onclick="location.href= 'colecciones2020.html' ">
+          '20
+        </button>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h3>
+          Ayudanos a mejorar nuestra pagina! Completa el formulario si conoces
+          alguna coleccion que no este en la pagina
+        </h3>
+      </div>
+      <div class="formulario">
+        <img src="imgs/ronald_mcdonalds_y_sus_amigos.png" alt="Ronald Mcdonald y amigos">
+        <form action="index.html" autocomplete="on">
+          <label for="nombre">Nombre de la coleccion:</label>
+          <input type="text" class="contacto-input" name="nombre" id="nombre" placeholder="Ej: Mario Bross" />
+
+          <label for="fecha_lanzamiento">Año de lanzamiento:</label>
+          <input type="year" class="contacto-input" name="fecha_lanzamiento" id="fecha_lanzamiento"
+            placeholder="Ej: 1990" />
+
+          <label for="comentario"> Comentario</label>
+          <input type="text" class="contacto-input" name="comentario" id="comentario"
+            placeholder="Ej: La coleccion contiene 5 piezas" />
+
+          <label for="archivo" id="archivo-label">
+            Adjuntar imagen de la coleccion
+          </label>
+          <input type="file" name="archivo" id="archivo" accept="image/png, image/jpg, image/jpeg" />
+
+          <button class="enviar" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <img class="fondo" src="imgs/fondo.png" />
+    <div class="container-redes">
+      <div class="iconos">
+        <a href="https://www.facebook.com">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.Instagram.com">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.twitter.com">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

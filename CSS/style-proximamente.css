@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0rem;
+    box-sizing: border-box;
+    background-color: #C70036;
+  }
+  
+  
+  h2 {
+    font-size: 8rem;
+    color: #ffc107;
+    padding: 2rem;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 2rem;
+    color: #ffc107;
+  }
