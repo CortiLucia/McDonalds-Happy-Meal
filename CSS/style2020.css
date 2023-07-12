@@ -112,10 +112,8 @@ a {
   border-radius: 20px;
   position: fixed;
   text-decoration: none;
-  margin: -1rem;
-  right: 40px;
-  bottom: 40px;
-  z-index: 99;
+  padding: 3rem 0 0 1rem;
+  bottom: 15px;
 }
 
 i {
@@ -123,6 +121,6 @@ i {
 }
 
 a:hover::after {
-  transition: 3s ease-in-out all;
+  transition: transform 3s ease-in-out;
   content: "Volver al inicio";
 }
