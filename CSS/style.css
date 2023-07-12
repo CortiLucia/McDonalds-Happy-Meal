@@ -205,7 +205,7 @@ form {
 }
 
 .container-redes {
-  background-color:#F20707;
+  background-color:var(--color-principal);
 }
 
 .iconos {
