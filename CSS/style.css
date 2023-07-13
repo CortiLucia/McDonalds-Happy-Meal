@@ -205,23 +205,21 @@ form {
   transform: translateY(4px);
 }
 
-
 .container-footer {
   background-color: #F20707;
   display: flex;
   justify-content: space-evenly;
 }
 
-
 .container-text h2 {
   margin: 0;
   padding: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.3rem;
-  color: var(--color-secundario);
+  color: whitesmoke;
   text-align: left;
+  text-decoration: underline;
 }
-
 
 .container-text {
   display: grid;
@@ -234,12 +232,11 @@ form {
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.2rem;
-  color: white;
+  color: whitesmoke;
   margin: 0.2rem;
 }
 
 .container-text ul.anio {
-  color: white;
   display: grid;
   font-size: 1.2rem;
   padding: 0;
@@ -252,23 +249,23 @@ form {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.redes h2 {
+.container-text .titulo {
   margin-top: -2rem;
+  text-decoration: none;
   padding: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 3rem;
-  color: var(--color-secundario);
-  text-align: left;
+  color: whitesmoke;
+  text-align: center;
+  height: 100%;
 }
 
 .redes {
-  display: inline-block;
-
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .redes i {
-  margin-top: 1rem;
-  margin-left: 2.3rem;
   font-size: 3rem;
 }
-
