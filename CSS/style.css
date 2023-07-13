@@ -113,7 +113,7 @@ h2 {
   font-size: 50px;
   font-weight: bold;
   height: 30%;
-  background-color:var(--color-principal);
+  background-color: var(--color-principal);
 }
 
 .boton:nth-child(2n) {
@@ -143,6 +143,7 @@ h3 {
 .formulario img {
   padding-right: 2rem;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -204,28 +205,70 @@ form {
   transform: translateY(4px);
 }
 
-.container-redes {
-  background-color:var(--color-principal);
-}
 
-.iconos {
+.container-footer {
+  background-color: #F20707;
   display: flex;
-  justify-content: center;
-  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+
+.container-text h2 {
   margin: 0;
-  padding: 1rem;
-  gap: 50px;
-}
-
-.iconos i {
-  color: black;
-  font-size: 4rem;
-  transition: transform 300ms ease-in-out;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3rem;
+  color: var(--color-secundario);
+  text-align: left;
 }
 
 
-.iconos a:hover i{
-  transform: scale(130%);
+.container-text {
+  display: grid;
+  text-decoration: none;
+  margin-top: 0;
+  padding: 0 0 1rem 0;
 }
 
+.container-text a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  margin: 0.2rem;
+}
+
+.container-text ul.anio {
+  color: white;
+  display: grid;
+  font-size: 1.2rem;
+  padding: 0;
+}
+
+.container-text ul li a.anio {
+  padding: 0;
+  margin: 0.2rem;
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.redes h2 {
+  margin-top: -2rem;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+  color: var(--color-secundario);
+  text-align: left;
+}
+
+.redes {
+  display: inline-block;
+
+}
+
+.redes i {
+  margin-top: 1rem;
+  margin-left: 2.3rem;
+  font-size: 3rem;
+}
 
